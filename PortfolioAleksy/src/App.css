@@ -7,9 +7,13 @@
 body {
   /* background-image: url("./assets/image/background6.avif");
   background-size: cover; */
+  background-color: black;
 
   width: 100vw;
   font-family: "Lato", sans-serif;
+}
+.App {
+  background-color: whitesmoke;
 }
 /* .navbar {  
   display: flex;
@@ -27,7 +31,7 @@ li {
 }
 .header {
   font-family: Arial, sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   font-weight: 700;
   border: 3px solid black;
   width: fit-content;
@@ -36,4 +40,11 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.forminput {
+  border-left: 4px solid black; /* add a 1px solid black border to the right */
+  border-bottom: 4px solid black; /* add a 1px solid black border to the bottom */
+  border-top: none; /* remove the top border */
+  border-right: none; /* remove the left border */
+  background-color: transparent;
 }
