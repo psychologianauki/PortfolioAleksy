@@ -11,7 +11,7 @@ body {
   width: 100vw;
   font-family: "Lato", sans-serif;
 }
-/* .navbar {
+/* .navbar {  
   display: flex;
   justify-content: center;
 } */
@@ -24,4 +24,16 @@ ul {
 }
 li {
   font-size: 1.4rem;
+}
+.header {
+  font-family: Arial, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  border: 3px solid black;
+  width: fit-content;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
