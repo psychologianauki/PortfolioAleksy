@@ -5,6 +5,11 @@ import "./App.css";
 import Navbar from "./Navbar";
 import Aleksy from "./assets/image/Aleksyp.png";
 import { Link, Element } from "react-scroll";
+import Skills from "./Skills";
+import Aboutme from "./Aboutme";
+import Portfolio from "./Portfolio";
+import Contactme from "./Contactme";
+
 function App() {
   return (
     <div className="App">
@@ -69,18 +74,18 @@ function App() {
           </div>
         </div>
         <div className="aboutmepart"></div>
-        <div className="skillspart"></div>
+
         <Element name="section1" className="element">
-          <h2>Section 1</h2>
-          <p>This is the content of section 1.</p>
+          <Aboutme />
         </Element>
         <Element name="section2" className="element">
-          <h2>Section 2</h2>
-          <p>This is the content of section 2.</p>
+          <Skills />
         </Element>
         <Element name="section3" className="element">
-          <h2>Section 3</h2>
-          <p>This is the content of section 3.</p>
+          <Portfolio />
+        </Element>
+        <Element name="section4" className="element">
+          <Contactme />
         </Element>
       </div>
     </div>
