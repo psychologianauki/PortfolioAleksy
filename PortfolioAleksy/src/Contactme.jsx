@@ -6,10 +6,13 @@ export default function Contactme() {
       <div style={{ display: "flex", justifyContent: "center" }}>
         <div className="header">CONTACT </div>
       </div>
-      <form>
+      <form
+        action="https://formsubmit.io/send/aleksylisowski@gmail.com"
+        method="POST"
+      >
         <input
           className="forminput"
-          type="email"
+          type="text"
           placeholder="ENTER YOUR NAME*"
           style={{
             width: "50%",
@@ -36,7 +39,8 @@ export default function Contactme() {
           ></textarea>
         </div>
         <div style={{ display: "flex", justifyContent: "center" }}>
-          <div
+          <button
+            type="submit"
             style={{
               width: "10%",
               borderRight: "2px solid black",
@@ -46,7 +50,7 @@ export default function Contactme() {
             }}
           >
             SUBMIT
-          </div>
+          </button>
         </div>
       </form>
     </div>

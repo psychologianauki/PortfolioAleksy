@@ -3,7 +3,7 @@ import React from "react";
 export default function Figma() {
   return (
     <svg
-      height="50px"
+      height="100px"
       viewBox="0 0 32 32"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
