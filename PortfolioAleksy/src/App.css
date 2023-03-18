@@ -65,3 +65,12 @@ li {
   margin-top: 40px;
   z-index: 1; /* places the overlay on top of the image */
 }
+.overlay2 {
+  position: absolute; /* positions the overlay relative to the container */
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  margin-top: 40px;
+  /* places the overlay on top of the image */
+}
