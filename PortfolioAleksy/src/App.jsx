@@ -15,6 +15,7 @@ import Linked from "./assets/icons/Linked.jsx";
 import Instagram from "./assets/icons/Instagram";
 import Email from "./assets/icons/Email";
 import UpArrow from "./assets/icons/UpArrow";
+import Github from "./assets/icons/Github";
 
 function App() {
   const [isVisible, setIsVisible] = useState(false);
@@ -161,6 +162,11 @@ function App() {
           <div>
             <a href="mailto:aleksylisowski@gmail.com">
               <Email />
+            </a>
+          </div>
+          <div>
+            <a href="https://github.com/psychologianauki">
+              <Github />
             </a>
           </div>
         </div>

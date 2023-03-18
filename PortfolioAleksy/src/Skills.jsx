@@ -28,7 +28,7 @@ export default function Skills() {
         style={{
           display: "flex",
           justifyContent: "center",
-          gap: "25px",
+          gap: "40px",
           marginBottom: "10px",
         }}
       >
@@ -53,7 +53,7 @@ export default function Skills() {
         style={{
           display: "flex",
           justifyContent: "center",
-          gap: "25px",
+          gap: "40px",
           marginBottom: "10px",
         }}
       >
@@ -84,7 +84,7 @@ export default function Skills() {
         style={{
           display: "flex",
           justifyContent: "center",
-          gap: "25px",
+          gap: "40px",
           marginBottom: "10px",
         }}
       >
@@ -106,7 +106,7 @@ export default function Skills() {
         style={{
           display: "flex",
           justifyContent: "center",
-          gap: "25px",
+          gap: "40px",
           marginBottom: "10px",
         }}
       >
