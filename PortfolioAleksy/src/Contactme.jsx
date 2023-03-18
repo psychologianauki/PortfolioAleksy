@@ -3,7 +3,13 @@ import React from "react";
 export default function Contactme() {
   return (
     <div>
-      <div style={{ display: "flex", justifyContent: "center" }}>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          marginBottom: "30px",
+        }}
+      >
         <div className="header">CONTACT </div>
       </div>
       <form

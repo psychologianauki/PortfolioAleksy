@@ -29,13 +29,14 @@ ul {
   list-style: none;
 }
 li {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
+  font-weight: 700;
 }
 .header {
   font-family: Arial, sans-serif;
   font-size: 1.9rem;
   font-weight: 700;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   border: 3px solid black;
   width: fit-content;
   padding-left: 10px;
@@ -46,10 +47,21 @@ li {
   justify-content: center;
   align-items: center;
 }
+.part1 {
+  background: linear-gradient(to right, black 50%, white 50%);
+}
 .forminput {
-  border-left: 4px solid black; /* add a 1px solid black border to the right */
-  border-bottom: 4px solid black; /* add a 1px solid black border to the bottom */
-  border-top: none; /* remove the top border */
-  border-right: none; /* remove the left border */
+  border-left: 4px solid black;
+  border-bottom: 4px solid black;
+  border-top: none;
+  border-right: none;
   background-color: transparent;
+}
+.overlay {
+  position: absolute; /* positions the overlay relative to the container */
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin-top: 40px;
+  z-index: 1; /* places the overlay on top of the image */
 }

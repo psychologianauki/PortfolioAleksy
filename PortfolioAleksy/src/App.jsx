@@ -50,6 +50,9 @@ function App() {
             display: "flex",
             justifyContent: "flex-end",
             alignItems: "center",
+
+            marginTop: "10px",
+            borderBottom: "4px solid black",
           }}
         >
           <nav>
@@ -84,23 +87,30 @@ function App() {
             </ul>
           </nav>
         </div>
-        <div
-          className="presentation"
-          style={{ width: "100%", display: "flex" }}
-        >
-          <div className="mepart" style={{ color: "black", width: "50%" }}>
-            <h2>Hi, I am</h2>
-            <br></br>
-            <h1>Aleksy Lisowski</h1>
+        <div className="part1">
+          <div
+            className="presentation"
+            style={{ width: "100%", display: "flex" }}
+          >
+            <div className="mepart" style={{ color: "white", width: "50%" }}>
+              <h2>Hi, I am</h2>
+              <br></br>
+              <h1>Aleksy Lisowski</h1>
 
-            <h4>Front-end Developer</h4>
-          </div>
-          <div className="imagepart">
-            <img src={Aleksy} style={{ width: "300px", height: "300px" }}></img>
+              <h4>Front-end Developer</h4>
+            </div>
+            <div className="imagepart">
+              <img
+                src={Aleksy}
+                style={{
+                  width: "400px",
+                  height: "500px",
+                  position: "relative",
+                }}
+              ></img>
+            </div>
           </div>
         </div>
-        <div className="aboutmepart"></div>
-
         <Element name="section1" className="element">
           <Aboutme />
         </Element>
@@ -173,6 +183,11 @@ function App() {
         <div style={{ color: "gray", fontSize: "0.6rem" }}>
           Inspirated this figma design
           https://www.figma.com/file/CfVAmzcJQVlKq1men62GTz/Portfolio---Tomasz-Gajda-(Community)?node-id=43-44&t=ojJI788Qz7OdnhoA-0
+          <br></br>
+          <a href="https://pl.freepik.com/darmowe-zdjecie/gory-vestrahorn-w-stokksnes-na-islandii_11769004.htm#query=krajobraz&position=2&from_view=keyword&track=sph">
+            Obraz autorstwa tawatchai07
+          </a>{" "}
+          na Freepik
         </div>
       </footer>
     </div>
