@@ -46,7 +46,7 @@ function App() {
 
   return (
     <div className="App">
-      <div>
+      <div style={{ width: "100%" }}>
         <div
           className="navbar"
           style={{
@@ -85,15 +85,16 @@ function App() {
             </ul>
           </nav>
         </div>
-        <div className="part1">
+        <div className="part1" style={{ height: "500px" }}>
           <div
             className="presentation"
-            style={{ width: "100%", display: "flex" }}
+            style={{ width: "100%", display: "flex", justifyContent: "center" }}
           >
             <div className="mepart" style={{ color: "black", width: "50%" }}>
               <br></br>
               <br />
-
+              <br></br>
+              <br></br>
               <h1>Hi, I am</h1>
 
               <h1 style={{ fontSize: "2.9rem" }}>Aleksy Lisowski</h1>
@@ -124,12 +125,18 @@ function App() {
                 </div>
               </div>
             </div>
-            <div className="imagepart">
+            <div
+              className="imagepart"
+              style={{ display: "flex", justifyContent: "center" }}
+            >
               <img
                 src={Aleksy2}
                 style={{
                   height: "500px",
+                  width: "390px",
                   position: "relative",
+                  marginBottom: "0",
+                  bottom: "0",
                 }}
               ></img>
             </div>
@@ -147,73 +154,73 @@ function App() {
         <Element name="section4" className="element">
           <Contactme />
         </Element>
-      </div>
-      <footer
-        style={{
-          width: "100%",
-          backgroundColor: "black",
-          height: "160px",
-          marginTop: "20px",
-          paddingTop: "10px",
-        }}
-      >
-        {isVisible && (
-          <div
-            onClick={scrollToTop}
-            style={{ color: "white", backgroundColor: "black" }}
-          >
-            <div>
-              <UpArrow />
-            </div>
-            <div>Back to Top</div>
-          </div>
-        )}
-        <div
+        <footer
           style={{
-            gap: "20px",
-            paddingTop: "20px",
-            paddingBottom: "10px",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
+            width: "100%",
+            backgroundColor: "black",
+            height: "160px",
+            marginTop: "20px",
+            paddingTop: "10px",
           }}
         >
-          <div>
-            <a href="https://www.facebook.com/aleksyyyyy/">
-              <Facebook />
-            </a>
+          {isVisible && (
+            <div
+              onClick={scrollToTop}
+              style={{ color: "white", backgroundColor: "black" }}
+            >
+              <div>
+                <UpArrow />
+              </div>
+              <div>Back to Top</div>
+            </div>
+          )}
+          <div
+            style={{
+              gap: "20px",
+              paddingTop: "20px",
+              paddingBottom: "10px",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
+            <div>
+              <a href="https://www.facebook.com/aleksyyyyy/">
+                <Facebook />
+              </a>
+            </div>
+            <div>
+              <a href="https://www.linkedin.com/in/aleksy-undefined-90b128268/">
+                <Linked />
+              </a>
+            </div>
+            <div>
+              <a href="https://www.instagram.com/aleksylisowski/">
+                <Instagram />
+              </a>
+            </div>
+            <div>
+              <a href="mailto:aleksylisowski@gmail.com">
+                <Email />
+              </a>
+            </div>
+            <div>
+              <a href="https://github.com/psychologianauki">
+                <Github />
+              </a>
+            </div>
           </div>
-          <div>
-            <a href="https://www.linkedin.com/in/aleksy-undefined-90b128268/">
-              <Linked />
-            </a>
+          <div style={{ color: "gray", fontSize: "0.6rem" }}>
+            Inspirated this figma design
+            https://www.figma.com/file/CfVAmzcJQVlKq1men62GTz/Portfolio---Tomasz-Gajda-(Community)?node-id=43-44&t=ojJI788Qz7OdnhoA-0
+            <br></br>
+            <a href="https://pl.freepik.com/darmowe-zdjecie/gory-vestrahorn-w-stokksnes-na-islandii_11769004.htm#query=krajobraz&position=2&from_view=keyword&track=sph">
+              Obraz autorstwa tawatchai07
+            </a>{" "}
+            na Freepik
           </div>
-          <div>
-            <a href="https://www.instagram.com/aleksylisowski/">
-              <Instagram />
-            </a>
-          </div>
-          <div>
-            <a href="mailto:aleksylisowski@gmail.com">
-              <Email />
-            </a>
-          </div>
-          <div>
-            <a href="https://github.com/psychologianauki">
-              <Github />
-            </a>
-          </div>
-        </div>
-        <div style={{ color: "gray", fontSize: "0.6rem" }}>
-          Inspirated this figma design
-          https://www.figma.com/file/CfVAmzcJQVlKq1men62GTz/Portfolio---Tomasz-Gajda-(Community)?node-id=43-44&t=ojJI788Qz7OdnhoA-0
-          <br></br>
-          <a href="https://pl.freepik.com/darmowe-zdjecie/gory-vestrahorn-w-stokksnes-na-islandii_11769004.htm#query=krajobraz&position=2&from_view=keyword&track=sph">
-            Obraz autorstwa tawatchai07
-          </a>{" "}
-          na Freepik
-        </div>
-      </footer>
+        </footer>
+      </div>
     </div>
   );
 }
