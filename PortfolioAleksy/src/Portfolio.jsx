@@ -6,8 +6,12 @@ import gielda from "./assets/image/gielda.png";
 export default function Portfolio() {
   return (
     <div style={{ width: "100%", marginTop: "30px", marginBottom: "40px" }}>
-      <div style={{ width: "100%", position: "relative" }}>
-        <img src={portfolioBackground} alt="" style={{ width: "100%" }} />
+      <div style={{ width: "100%", position: "relative", margin: "0" }}>
+        <img
+          src={portfolioBackground}
+          alt=""
+          style={{ width: "100%", margin: "0" }}
+        />
         <div
           style={{ display: "flex", justifyContent: "center" }}
           className="overlay"
@@ -21,15 +25,35 @@ export default function Portfolio() {
             backgroundColor: "black",
             width: "100%",
             height: "100%",
+            justifyContent: "space-between",
+            margin: "0",
           }}
         >
-          <div className="overlay2" style={{ height: "100px" }}>
-            <img src={ToDoList} style={{ height: "200px" }}></img>
+          <div
+            className="overlay2"
+            style={{
+              height: "250px",
+              position: "absolute",
+              right: "20%",
+              top: "20%",
+            }}
+          >
+            <img src={ToDoList} style={{ height: "250px" }}></img>
           </div>
-          <div className="overlay2">
-            {" "}
-            <img src={gielda} style={{ height: "200px", left: "100px" }}></img>
-          </div>
+          <a href="https://stock-market-famk.vercel.app/">
+            <div
+              className="overlay3"
+              style={{ position: "absolute", left: "20%", top: "20%" }}
+            >
+              <img src={gielda} style={{ height: "250px" }}></img>
+            </div>
+          </a>
+          <div
+            style={{
+              width: "100%",
+              height: "30px",
+            }}
+          ></div>
         </div>
       </div>
     </div>

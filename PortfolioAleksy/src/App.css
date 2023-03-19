@@ -48,7 +48,8 @@ li {
   align-items: center;
 }
 .part1 {
-  background: linear-gradient(to right, black 50%, white 50%);
+  /* background: linear-gradient(to right, black 50%, white 50%); */
+  background-color: white;
 }
 .forminput {
   border-left: 4px solid black;
@@ -65,12 +66,11 @@ li {
   margin-top: 40px;
   z-index: 1; /* places the overlay on top of the image */
 }
-.overlay2 {
+.overlay2,
+.overlay3 {
   position: absolute; /* positions the overlay relative to the container */
   top: 0;
-  left: 0;
 
+  height: 100%;
   width: 100%;
-  margin-top: 40px;
-  /* places the overlay on top of the image */
 }

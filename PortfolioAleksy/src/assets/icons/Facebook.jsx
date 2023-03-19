@@ -10,7 +10,7 @@ export default function Facebook() {
       xmlns="http://www.w3.org/2000/svg"
       stroke="#ffffff"
       stroke-width="0.00512"
-      height="20px"
+      height="30px"
     >
       <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
       <g

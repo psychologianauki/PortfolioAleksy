@@ -92,10 +92,13 @@ function App() {
             className="presentation"
             style={{ width: "100%", display: "flex" }}
           >
-            <div className="mepart" style={{ color: "white", width: "50%" }}>
-              <h2>Hi, I am</h2>
+            <div className="mepart" style={{ color: "black", width: "50%" }}>
               <br></br>
-              <h1>Aleksy Lisowski</h1>
+              <br />
+
+              <h1>Hi, I am</h1>
+
+              <h1 style={{ fontSize: "2.9rem" }}>Aleksy Lisowski</h1>
 
               <h4>Front-end Developer</h4>
             </div>
@@ -128,7 +131,7 @@ function App() {
         style={{
           width: "100%",
           backgroundColor: "black",
-          height: "130px",
+          height: "160px",
           marginTop: "20px",
           paddingTop: "10px",
         }}

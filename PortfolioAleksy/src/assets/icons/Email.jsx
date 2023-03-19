@@ -6,7 +6,7 @@ export default function Email() {
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      height="20px"
+      height="30px"
     >
       <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
       <g

@@ -6,7 +6,7 @@ export default function Instagram() {
       viewBox="0 0 960 960"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      height="30px"
+      height="40px"
     >
       <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
       <g

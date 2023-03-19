@@ -10,7 +10,7 @@ export default function Linked() {
       xmlns:xlink="http://www.w3.org/1999/xlink"
       viewBox="-143 145 512 512"
       xml:space="preserve"
-      height="20px"
+      height="30px"
     >
       <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
       <g
