@@ -35,25 +35,19 @@ export default function Portfolio() {
               height: "250px",
               position: "absolute",
               right: "20%",
-              top: "20%",
+              top: "25%",
             }}
           >
             <img src={ToDoList} style={{ height: "250px" }}></img>
           </div>
-          <a href="https://stock-market-famk.vercel.app/">
-            <div
-              className="overlay3"
-              style={{ position: "absolute", left: "20%", top: "20%" }}
-            >
-              <img src={gielda} style={{ height: "250px" }}></img>
-            </div>
-          </a>
           <div
-            style={{
-              width: "100%",
-              height: "30px",
-            }}
-          ></div>
+            className="overlay3"
+            style={{ position: "absolute", left: "20%", top: "25%" }}
+          >
+            <a href="https://stock-market-famk.vercel.app/">
+              <img src={gielda} style={{ height: "250px" }}></img>
+            </a>
+          </div>
         </div>
       </div>
     </div>

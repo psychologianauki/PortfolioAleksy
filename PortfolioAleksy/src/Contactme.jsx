@@ -10,7 +10,9 @@ export default function Contactme() {
           marginBottom: "30px",
         }}
       >
-        <div className="header">CONTACT </div>
+        <div className="header" style={{ marginTop: "20px" }}>
+          CONTACT{" "}
+        </div>
       </div>
       <form
         action="https://formsubmit.io/send/aleksylisowski@gmail.com"

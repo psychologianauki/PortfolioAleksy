@@ -16,6 +16,11 @@ import Instagram from "./assets/icons/Instagram";
 import Email from "./assets/icons/Email";
 import UpArrow from "./assets/icons/UpArrow";
 import Github from "./assets/icons/Github";
+import Aleksy1 from "./assets/image/aleksyy.jpeg";
+import Email2 from "./assets/icons/Email2";
+import Github2 from "./assets/icons/Github2";
+import Linked2 from "./assets/icons/Linked2";
+import Aleksy2 from "./assets/image/aleksy1.jpg";
 
 function App() {
   const [isVisible, setIsVisible] = useState(false);
@@ -72,14 +77,7 @@ function App() {
                   Portfolio
                 </Link>
               </li>
-              <li
-                style={{
-                  backgroundColor: "black",
-                  color: "white",
-                  height: "100%",
-                  borderRadius: "5px",
-                }}
-              >
+              <li>
                 <Link to="section4" smooth={true} duration={1000}>
                   Contact me
                 </Link>
@@ -100,13 +98,36 @@ function App() {
 
               <h1 style={{ fontSize: "2.9rem" }}>Aleksy Lisowski</h1>
 
-              <h4>Front-end Developer</h4>
+              <h4 style={{ color: "gray" }}>Front-end Developer</h4>
+
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  gap: "20px",
+                }}
+              >
+                <div className="starticons">
+                  <a href="mailto:aleksylisowski@gmail.com">
+                    <Email2 />
+                  </a>
+                </div>
+                <div className="starticons">
+                  <a href="https://github.com/psychologianauki">
+                    <Github2 />
+                  </a>
+                </div>
+                <div className="starticons">
+                  <a href="https://www.linkedin.com/in/aleksy-undefined-90b128268/">
+                    <Linked2 />
+                  </a>
+                </div>
+              </div>
             </div>
             <div className="imagepart">
               <img
-                src={Aleksy}
+                src={Aleksy2}
                 style={{
-                  width: "400px",
                   height: "500px",
                   position: "relative",
                 }}

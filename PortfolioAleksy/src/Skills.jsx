@@ -24,14 +24,7 @@ export default function Skills() {
       >
         Using now:
       </div>
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          gap: "40px",
-          marginBottom: "10px",
-        }}
-      >
+      <div className="skillsdiv1">
         <div>
           <Javascript />
           <div>Javascript</div>
@@ -49,14 +42,7 @@ export default function Skills() {
           <div>React</div>
         </div>
       </div>
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          gap: "40px",
-          marginBottom: "10px",
-        }}
-      >
+      <div className="skillsdiv2">
         <div>
           <Typescript />
           <div>Typescript</div>
@@ -80,14 +66,7 @@ export default function Skills() {
       >
         Learning:{" "}
       </div>
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          gap: "40px",
-          marginBottom: "10px",
-        }}
-      >
+      <div className="skillsdiv3">
         <div>
           <Java />
           <div>JAVA</div>
@@ -102,14 +81,7 @@ export default function Skills() {
       >
         Other skills:{" "}
       </div>
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          gap: "40px",
-          marginBottom: "10px",
-        }}
-      >
+      <div className="skillsdiv4">
         <div>
           {" "}
           <Cpp />
