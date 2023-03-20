@@ -19,7 +19,7 @@ export default function Aboutme() {
             fontWeight: "600",
             wordSpacing: "5px",
             lineHeight: "1.5",
-            textAlign: "left",
+            textAlign: "justify",
           }}
         >
           Hello! My name is Aleksy and I am a first-year student studying
