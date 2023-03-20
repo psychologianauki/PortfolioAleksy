@@ -42,13 +42,12 @@ export default function Portfolio() {
             <div
               style={{ color: "white", fontSize: "1.1rem", fontWeight: "700" }}
             >
-              To do list, web, that was very helpful for me as a reminder to
-              stay productive
+              App, that was very helpful for me as a reminder to stay productive
             </div>
           </div>
           <div
             className="overlay3"
-            style={{ position: "absolute", left: "6%", top: "35%" }}
+            style={{ position: "absolute", left: "3%", top: "35%" }}
           >
             <a href="https://stock-market-famk.vercel.app/">
               <img src={gielda} style={{ height: "250px" }}></img>
@@ -59,7 +58,7 @@ export default function Portfolio() {
                   fontWeight: "700",
                 }}
               >
-                Project, i did in the ground of 3, i am the most proud of
+                Project, i did in the ground of 3 which I am the most proud of
               </div>
             </a>
           </div>
