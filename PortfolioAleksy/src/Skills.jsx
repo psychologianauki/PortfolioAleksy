@@ -12,6 +12,7 @@ import Python from "./assets/icons/Python";
 import Cpp from "./assets/icons/Cpp";
 import GreatB from "./assets/icons/GreatB";
 import Germany from "./assets/icons/Germany";
+import Redux from "./assets/icons/Redux";
 
 export default function Skills() {
   return (
@@ -20,7 +21,12 @@ export default function Skills() {
         <div className="header">SKILLS</div>
       </div>
       <div
-        style={{ fontSize: "1.8rem", marginTop: "30px", marginBottom: "10px" }}
+        style={{
+          fontSize: "1.8rem",
+          marginTop: "30px",
+          marginBottom: "10px",
+          fontWeight: "700",
+        }}
       >
         Using now:
       </div>
@@ -62,7 +68,12 @@ export default function Skills() {
         </div>
       </div>
       <div
-        style={{ fontSize: "1.8rem", marginTop: "30px", marginBottom: "10px" }}
+        style={{
+          fontSize: "1.8rem",
+          marginTop: "30px",
+          marginBottom: "10px",
+          fontWeight: "700",
+        }}
       >
         Learning:{" "}
       </div>
@@ -75,9 +86,18 @@ export default function Skills() {
           <Python />
           <div>Python</div>
         </div>
+        <div>
+          <Redux />
+          <div>Redux</div>
+        </div>
       </div>
       <div
-        style={{ fontSize: "1.8rem", marginTop: "30px", marginBottom: "10px" }}
+        style={{
+          fontSize: "1.8rem",
+          marginTop: "30px",
+          marginBottom: "10px",
+          fontWeight: "700",
+        }}
       >
         Other skills:{" "}
       </div>
