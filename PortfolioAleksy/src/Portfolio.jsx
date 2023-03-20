@@ -38,12 +38,19 @@ export default function Portfolio() {
               top: "35%",
             }}
           >
-            <img src={ToDoList} style={{ height: "250px" }}></img>
-            <div
-              style={{ color: "white", fontSize: "1.1rem", fontWeight: "700" }}
-            >
-              App, that was very helpful for me as a reminder to stay productive
-            </div>
+            <a href="https://to-do-list-ebon-ten.vercel.app/">
+              <img src={ToDoList} style={{ height: "250px" }}></img>
+              <div
+                style={{
+                  color: "white",
+                  fontSize: "1.1rem",
+                  fontWeight: "700",
+                }}
+              >
+                App, that was very helpful for me as a reminder to stay
+                productive
+              </div>
+            </a>
           </div>
           <div
             className="overlay3"
