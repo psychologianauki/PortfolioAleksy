@@ -2,6 +2,7 @@ import React from "react";
 import portfolioBackground from "./assets/image/portfolioBackground.jpg";
 import ToDoList from "./assets/image/toDoList.png";
 import gielda from "./assets/image/gielda.png";
+import Barber from "./assets/image/barber.png";
 
 export default function Portfolio() {
   return (
@@ -38,8 +39,8 @@ export default function Portfolio() {
               top: "35%",
             }}
           >
-            <a href="https://to-do-list-ebon-ten.vercel.app/">
-              <img src={ToDoList} style={{ height: "250px" }}></img>
+            <a href="https://barber-shop-zeta-beryl.vercel.app/">
+              <img src={Barber} style={{ height: "250px" }}></img>
               <div
                 style={{
                   color: "white",
@@ -47,8 +48,7 @@ export default function Portfolio() {
                   fontWeight: "700",
                 }}
               >
-                App, that was very helpful for me as a reminder to stay
-                productive
+                BarberShop website
               </div>
             </a>
           </div>
