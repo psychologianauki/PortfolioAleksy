@@ -86,10 +86,7 @@ function App() {
           </nav>
         </div>
         <div className="part1" style={{ height: "500px" }}>
-          <div
-            className="presentation"
-            style={{ width: "100%", display: "flex", justifyContent: "center" }}
-          >
+          <div className="presentation">
             <div className="mepart" style={{ color: "black", width: "50%" }}>
               <br></br>
               <br />
@@ -130,6 +127,7 @@ function App() {
               style={{ display: "flex", justifyContent: "center" }}
             >
               <img
+                className="zdjecie"
                 src={Aleksy2}
                 style={{
                   height: "500px",
