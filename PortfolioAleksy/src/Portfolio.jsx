@@ -3,6 +3,7 @@ import portfolioBackground from "./assets/image/portfolioBackground.jpg";
 import ToDoList from "./assets/image/toDoList.png";
 import gielda from "./assets/image/gielda.png";
 import Barber from "./assets/image/barber.png";
+import "./App.css";
 
 export default function Portfolio() {
   return (
@@ -20,27 +21,10 @@ export default function Portfolio() {
           <div className="header">PORTFOLIO</div>
         </div>
 
-        <div
-          style={{
-            display: "flex",
-            backgroundColor: "black",
-            width: "100%",
-            height: "100%",
-            justifyContent: "space-between",
-            margin: "0",
-          }}
-        >
-          <div
-            className="overlay2"
-            style={{
-              height: "250px",
-              position: "absolute",
-              right: "2%",
-              top: "35%",
-            }}
-          >
+        <div className="overlaycontainer">
+          <div className="overlay2">
             <a href="https://barber-shop-zeta-beryl.vercel.app/">
-              <img src={Barber} style={{ height: "250px" }}></img>
+              <img src={Barber} className="barberimage"></img>
               <div
                 style={{
                   color: "white",
@@ -52,12 +36,9 @@ export default function Portfolio() {
               </div>
             </a>
           </div>
-          <div
-            className="overlay3"
-            style={{ position: "absolute", left: "3%", top: "35%" }}
-          >
+          <div className="overlay3">
             <a href="https://stock-market-famk.vercel.app/">
-              <img src={gielda} style={{ height: "250px" }}></img>
+              <img src={gielda} className="gieldaimage"></img>
               <div
                 style={{
                   color: "white",
@@ -65,10 +46,15 @@ export default function Portfolio() {
                   fontWeight: "700",
                 }}
               >
-                Project, i did in the ground of 3 which I am the most proud of
+                Project I am the most proud of
               </div>
             </a>
           </div>
+          <a href="https://github.com/psychologianauki">
+            <div className="secondcontainer">
+              Click here and check out the projects in which I participated
+            </div>
+          </a>
         </div>
       </div>
     </div>
