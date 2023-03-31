@@ -22,14 +22,14 @@ export default function Aboutme() {
             textAlign: "justify",
           }}
         >
-          Hello! My name is Aleksy and I am a first-year student studying
-          Automation, Robotics and Industrial Informatics at Warsaw University
-          of Technology. I am passionate about web development and I am eager to
-          pursue a career as a frontend developer. While I am still early in my
-          academic journey, I have been working hard to gain practical
-          experience in the field. In my spare time, I have been studying web
-          development on my own, learning HTML, CSS, and JavaScript, as well as
-          popular frontend frameworks such as React and Typescript.
+          Hello! My name is Aleksy and I am studying Automation, Robotics and
+          Industrial Informatics at Warsaw University of Technology. I am
+          passionate about web development and I am eager to pursue a career as
+          a frontend developer. While I am still early in my academic journey, I
+          have been working hard to gain practical experience in the field. In
+          my spare time, I have been studying web development on my own,
+          learning HTML, CSS, and JavaScript, as well as popular frontend
+          frameworks such as React and Typescript.
           <br></br>
           <br></br>I have also completed several personal projects, including
           CryptoMarket and ToDoList, which have allowed me to apply my skills
