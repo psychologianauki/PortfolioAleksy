@@ -5,8 +5,6 @@
   text-align: center;
 }
 body {
-  /* background-image: url("./assets/image/background6.avif");
-  background-size: cover; */
   background-color: black;
   height: 100%;
   width: 100%;
@@ -23,10 +21,7 @@ body {
   margin: 0;
   overflow: hidden;
 }
-/* .navbar {  
-  display: flex;
-  justify-content: center;
-} */
+
 ul {
   display: flex;
   align-items: center;
@@ -55,7 +50,6 @@ li {
   align-items: center;
 }
 .part1 {
-  /* background: linear-gradient(to right, black 50%, white 50%); */
   background: linear-gradient(to right, #ccc, #fff, #fff);
   border-bottom: 4px solid black;
 }
@@ -67,16 +61,16 @@ li {
   background-color: transparent;
 }
 .overlay {
-  position: absolute; /* positions the overlay relative to the container */
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   margin-top: 40px;
-  z-index: 1; /* places the overlay on top of the image */
+  z-index: 1;
 }
 .overlay2,
 .overlay3 {
-  position: absolute; /* positions the overlay relative to the container */
+  position: absolute;
   top: 0;
 }
 .skillsdiv1,
@@ -122,11 +116,11 @@ li {
 }
 .barberimage {
   height: 40vh;
-  width: 40vw;
+  width: 38vw;
 }
 .gieldaimage {
   height: 40vh;
-  width: 40vw;
+  width: 38vw;
 }
 .secondcontainer {
   display: none;
@@ -184,7 +178,7 @@ li {
   }
   .secondcontainer {
     display: block;
-    position: absolute;
+
     top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -200,7 +194,8 @@ li {
   }
   .secondcontainer {
     display: block;
-    position: absolute;
+
+    width: 60%;
     top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);

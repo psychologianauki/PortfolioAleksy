@@ -1,10 +1,8 @@
 import { useState, useEffect } from "react";
 import React from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+
 import "./App.css";
-import Navbar from "./Navbar";
-import Aleksy from "./assets/image/Aleksyp.png";
+
 import { Link, Element } from "react-scroll";
 import Skills from "./Skills";
 import Aboutme from "./Aboutme";
@@ -16,7 +14,7 @@ import Instagram from "./assets/icons/Instagram";
 import Email from "./assets/icons/Email";
 import UpArrow from "./assets/icons/UpArrow";
 import Github from "./assets/icons/Github";
-import Aleksy1 from "./assets/image/aleksyy.jpeg";
+
 import Email2 from "./assets/icons/Email2";
 import Github2 from "./assets/icons/Github2";
 import Linked2 from "./assets/icons/Linked2";
@@ -25,13 +23,11 @@ import Aleksy2 from "./assets/image/aleksy1.jpg";
 function App() {
   const [isVisible, setIsVisible] = useState(false);
 
-  // Function to handle scroll event
   const handleScroll = () => {
     const top = window.pageYOffset || document.documentElement.scrollTop;
     setIsVisible(top > 100);
   };
 
-  // Attach event listener to window scroll event
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
     return () => {
@@ -39,7 +35,6 @@ function App() {
     };
   }, []);
 
-  // Function to handle click event
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };

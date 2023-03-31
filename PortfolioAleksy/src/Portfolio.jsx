@@ -1,6 +1,6 @@
 import React from "react";
 import portfolioBackground from "./assets/image/portfolioBackground.jpg";
-import ToDoList from "./assets/image/toDoList.png";
+
 import gielda from "./assets/image/gielda.png";
 import Barber from "./assets/image/barber.png";
 import "./App.css";
